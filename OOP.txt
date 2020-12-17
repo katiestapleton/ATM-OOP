@@ -7,45 +7,36 @@ Do not refactor the code or attempt to write fully functioning methods...
 just work through what objects, methods and properties you might use to represent the ATM machine.
 Create your own repo from scratch and submit your GitHub repo URL in Moodle.
 
----
+-----------------------------------
 
 ACCOUNT
-
 - pin
 - balance
+*****
++ display balance
++ create pin
++ read pin
++ update pin
 
----
-
-- display balance
-- create pin
-- read pin
-- update pin
 
 WITHDRAWAL
-
 - withdrawal amount
+*****
++ subtract withdrawal amount
++ verify withdrawal
 
----
-
-- subtract withdrawal amount
-- verify withdrawal
 
 DEPOSIT
-
 - deposit amount
+*****
++ add deposit amount
++ verify deposit
 
----
-
-- add deposit amount
-- verify deposit
 
 ALERT MESSAGE
-
 - invalid pin message
 - invalid withdrawal message
 - invalid deposit message
-
----
-
-- display alert
-- clear alert
+*****
++ display alert
++ clear alert
